@@ -2,8 +2,6 @@
 layout: post
 title: "Hack The Box: Initial Recon and Privilege Escalation"
 date: 2026-02-20 17:00:00 +0300
-categories: [Lab Challenges, Hack The Box]
-tags: [nmap, privilege-escalation, linux]
 ---
 
 Welcome to my first official lab write-up! As part of my ongoing training, I am documenting my practical exercises to reinforce my methodology and share my learning process.
