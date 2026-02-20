@@ -1,31 +1,42 @@
 ---
 layout: page
 title: Projects
-icon: fas fa-user-tie
-order: 5
+icon: fas fa-flag
+order: 4
 ---
 
-## Professional Statement
-
-A selection of my recent technical projects spanning IoT, secure web development, and data science.
+In cybersecurity, practical application is everything. Below is a collection of write-ups from my Cyber Shujaa training.
 
 ---
 
-### 1. Smart Triage Wand (IoT Health Tech)
-* **Overview:** A portable IoT device designed to efficiently screen for diseases in Kenya, built with a focus on secure data collection and transmission.
-* **Technologies:** ESP32, Raspberry Pi, Microcontroller Architecture.
-* **Impact:** Demonstrates the ability to integrate hardware and software to solve critical regional healthcare challenges using lightweight, secure infrastructure.
+## Problem Statement
+In this lab, I was tasked with analyzing a **Web Application** to identify security weaknesses. The goal was to understand how modern web apps handle user input and authentication.
 
-### 2. Kodoyo POS System
-* **Overview:** A comprehensive web-based Point of Sale (POS) system designed for robust transaction handling and data integrity.
-* **Technologies:** PHP, MySQL.
-* **Security Focus:** Implemented secure database architecture and sanitized inputs to protect against common web vulnerabilities like SQL injection.
+## The Approach
+### Step 1: Mapping the Application
+I started by navigating through the web application to understand its functionality. I looked at the Login page, the "Contact Us" forms, and the URL structure.
 
-### 3. Road Accident Data Analysis
-* **Overview:** A data science project focused on analyzing road accident datasets to identify trends and safety metrics. 
-* **Technologies:** Python, Streamlit.
-* **Impact:** Built a clean, interactive web interface to securely visualize complex data, highlighting my ability to process and present critical information.
+### Step 2: Vulnerability Scanning
+I used browser developer tools to inspect the source code. I looked for:
+*   Hidden fields in HTML forms.
+*   Sensitive comments left by developers.
+*   Insecure cookies.
 
-### 4. Kenya Solar Calculator
-* **Overview:** A deployed web utility to help users calculate solar power requirements.
-* **Technologies:** HTML/CSS, GitHub Pages.
+---
+**[Link to GitHub Repository for this Lab](https://github.com/Jlaura08/Jlaura08.github.io)**
+### Step 3: Exploitation / Analysis
+I found that the application was not validating input correctly on the "Search" bar, which could lead to Cross-Site Scripting (XSS).
+
+> **Observation:** The application reflected my search query back to the screen without sanitization.
+
+## Tools Used
+*   **Web Browser (Firefox/Chrome)**
+*   **Developer Tools (F12)**
+*   **Burp Suite** (for intercepting traffic)
+
+## Key Lessons Learned
+*   Web applications must validate all user input on the server side.
+*   Understanding HTTP methods (GET vs POST) is essential for web analysis.
+*   Security headers should be implemented to protect against common web attacks.
+
+*(Note: Detailed step-by-step write-ups with screenshots are available in the main blog feed!)*
