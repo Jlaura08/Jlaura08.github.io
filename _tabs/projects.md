@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Me
+title: Projects
 icon: fas fa-user-tie
 order: 5
 ---
