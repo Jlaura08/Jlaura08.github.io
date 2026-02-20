@@ -11,11 +11,11 @@ timezone: Africa/Nairobi
 
 # jekyll-seo-tag settings
 # ↓ --------------------------
-title: Kitine Dancan OKINYI
+title: Laura Joy
 tagline: "Cybersecurity Professional | Security Analyst | CTF Enthusiast"
 
 description: >-
-  Portfolio of Kitine Dancan OKINYI - Cybersecurity professional specializing in 
+  Portfolio of Laura Joy - Cybersecurity professional specializing in 
   threat detection, incident response, and security operations. 
   Showcasing projects, lab challenges, and professional experience.
 
@@ -30,8 +30,8 @@ avatar: /assets/img/profile.jpg
 
 # Author and Contacts (Sidebar)
 author:
-  name: Kitine Dancan OKINYI
-  email: your.email@example.com  # Replace with your actual email
+  name: Laura Joy
+  email: joylaura08@gmail.com  # Replace with your actual email
   links:
     - https://github.com/Jlaura08
     - https://linkedin.com/in/your-linkedin-profile  # Update this
@@ -43,3 +43,9 @@ github:
 
 # Pagination
 paginate: 5
+
+# Collections settings
+collections:
+  tabs:
+    output: true
+    sort_by: order
