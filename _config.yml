@@ -1,32 +1,25 @@
-# _config.yml
+# --------------------
+# URL & Setup
+# --------------------
 title: Laurah Joy
-tagline: Cybersecurity Professional | Security Analyst
-description: >-
-  Portfolio of Laurah Joy - Cybersecurity professional specializing in 
-  threat detection, incident response, and security operations
+tagline: Cybersecurity Professional & Enthusiast # Your professional statement
+description: Portfolio and blog of Laurah Joy, showcasing cybersecurity projects, CTF write-ups, and lab challenges.
 
-url: "https://Jlaura08.github.io"  # Your GitHub Pages URL
-baseurl: ""
+# --------------------
+# Author Info (Home Page Sidebar)
+# --------------------
+author:
+  name: Laurah Joy
+  avatar: /assets/img/profile.jpg # Upload your photo to the assets/img folder and link it here
+  bottom_text: "Securing systems, one challenge at a time."
 
-# Theme settings
-theme_mode: dark  # or light
-
-# Author information
-author: Laurah Joy
-avatar: /assets/img/profile.jpg  # Add your profile photo
-
-# Social links
+# --------------------
+# Contacts / Social Links
+# --------------------
 social:
   name: Laurah Joy
-  email: laurah.joy@email.com  # Replace with your email
+  email: your.email@example.com
   links:
     - https://github.com/Jlaura08
-    - https://linkedin.com/in/Jlaura08
-    - https://twitter.com/Jlaura08
-
-# GitHub metadata
-github:
-  username: Jlaura08
-
-# Build settings
-paginate: 5
+    - https://linkedin.com/in/your-linkedin-profile
+    # Add your telephone here if you want it public, though email/LinkedIn is usually safer for cyber portfolios!
