@@ -1,26 +1,42 @@
 ---
 layout: page
-title: Lab Challenges
+title: Web Application Assessment Lab
 icon: fas fa-flag
 order: 4
 ---
 
-In cybersecurity, practical application is everything. Below is a collection of write-ups from my Cyber Shujaa training and independent Hack The Box modules.
+In cybersecurity, practical application is everything. Below is a collection of write-ups from my Cyber Shujaa training.
 
 ---
 
-## Challenge: [Insert HTB Machine / Lab Name]
-**Problem Statement:** The objective was to perform initial reconnaissance on a target Linux machine, identify misconfigurations in running services, and successfully escalate privileges to the root user.
+## Problem Statement
+In this lab, I was tasked with analyzing a **Web Application** to identify security weaknesses. The goal was to understand how modern web apps handle user input and authentication.
 
-**Approach:**
-1. **Enumeration:** Utilized Nmap to scan for open ports and identified a vulnerable web service.
-2. **Exploitation:** Gained an initial foothold by exploiting a misconfigured upload directory to trigger a reverse shell.
-3. **Privilege Escalation:** Enumerated SUID binaries and abused system permissions to achieve root access.
+## The Approach
+### Step 1: Mapping the Application
+I started by navigating through the web application to understand its functionality. I looked at the Login page, the "Contact Us" forms, and the URL structure.
 
-**Tools Used:** Nmap, Netcat, Python, Linux Command Line.
+### Step 2: Vulnerability Scanning
+I used browser developer tools to inspect the source code. I looked for:
+*   Hidden fields in HTML forms.
+*   Sensitive comments left by developers.
+*   Insecure cookies.
 
-**Key Lessons Learned:**
-* Reinforced the importance of proper file permissions in Linux Mint and enterprise environments.
-* Gained hands-on experience in identifying and exploiting outdated web components.
+---
+**[Link to GitHub Repository for this Lab](https://github.com/Jlaura08/Jlaura08.github.io)**
+### Step 3: Exploitation / Analysis
+I found that the application was not validating input correctly on the "Search" bar, which could lead to Cross-Site Scripting (XSS).
+
+> **Observation:** The application reflected my search query back to the screen without sanitization.
+
+## Tools Used
+*   **Web Browser (Firefox/Chrome)**
+*   **Developer Tools (F12)**
+*   **Burp Suite** (for intercepting traffic)
+
+## Key Lessons Learned
+*   Web applications must validate all user input on the server side.
+*   Understanding HTTP methods (GET vs POST) is essential for web analysis.
+*   Security headers should be implemented to protect against common web attacks.
 
 *(Note: Detailed step-by-step write-ups with screenshots are available in the main blog feed!)*
