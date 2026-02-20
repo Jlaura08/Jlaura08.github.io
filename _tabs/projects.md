@@ -2,7 +2,7 @@
 layout: page
 title: About Me
 icon: fas fa-user-tie
-order: 2
+order: 5
 ---
 
 ## Professional Statement
