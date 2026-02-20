@@ -1,42 +1,38 @@
 ---
 layout: page
 title: Projects
-icon: fas fa-flag
-order: 4
+icon: fas fa-project-diagram
+order: 2
 ---
 
-In cybersecurity, practical application is everything. Below is a collection of write-ups from my Cyber Shujaa training.
+A showcase of my hands-on cybersecurity experience, spanning vulnerability assessments, practical penetration testing, and secure software development.
 
 ---
 
-## Problem Statement
-In this lab, I was tasked with analyzing a **Web Application** to identify security weaknesses. The goal was to understand how modern web apps handle user input and authentication.
+### 1. Vulnerability Assessment & Penetration Testing
+**Description:** Conducted a full vulnerability assessment on a deliberately vulnerable lab environment using industry-standard tools like Nmap, OpenVAS, and Metasploit to identify, exploit, and report potential security weaknesses.
+* **Skills Highlighted:** Network scanning, vulnerability assessment, exploit testing, report writing.
+* **Outcome/Deliverable:** Produced a detailed security report highlighting discovered vulnerabilities, risk levels, and recommended mitigations for the target infrastructure.
 
-## The Approach
-### Step 1: Mapping the Application
-I started by navigating through the web application to understand its functionality. I looked at the Login page, the "Contact Us" forms, and the URL structure.
-
-### Step 2: Vulnerability Scanning
-I used browser developer tools to inspect the source code. I looked for:
-*   Hidden fields in HTML forms.
-*   Sensitive comments left by developers.
-*   Insecure cookies.
+![Vulnerability Scan Report](/assets/img/projects/va-report.png){: .shadow .rounded-10 w="700" }
+_Excerpt from a vulnerability assessment scan outlining risk severities._
 
 ---
-**[Link to GitHub Repository for this Lab](https://github.com/Jlaura08/Jlaura08.github.io)**
-### Step 3: Exploitation / Analysis
-I found that the application was not validating input correctly on the "Search" bar, which could lead to Cross-Site Scripting (XSS).
 
-> **Observation:** The application reflected my search query back to the screen without sanitization.
+### 2. Capture The Flag (CTF) Challenges & Writeups
+**Description:** Actively participate in advanced cybersecurity CTF challenges on platforms like Hack The Box and TryHackMe to solve real-world security problems, including finding hidden flags, cracking encoded messages, and exploiting weak configurations.
+* **Skills Highlighted:** Problem-solving, Linux command-line proficiency, scripting, cryptography, reverse engineering, web security.
+* **Outcome/Deliverable:** Authored step-by-step write-ups demonstrating the methodology for each challenge, including the enumeration process, tools utilized, and the final privilege escalation vectors.
 
-## Tools Used
-*   **Web Browser (Firefox/Chrome)**
-*   **Developer Tools (F12)**
-*   **Burp Suite** (for intercepting traffic)
+![CTF Challenge Solved](/assets/img/projects/ctf-flag.png){: .shadow .rounded-10 w="700" }
+_Successful root flag retrieval during a recent Hack The Box engagement._
 
-## Key Lessons Learned
-*   Web applications must validate all user input on the server side.
-*   Understanding HTTP methods (GET vs POST) is essential for web analysis.
-*   Security headers should be implemented to protect against common web attacks.
+---
 
-*(Note: Detailed step-by-step write-ups with screenshots are available in the main blog feed!)*
+### 3. Secure Web Application Development & Testing
+**Description:** Developed a demonstration web application portal and performed rigorous security testing against it to identify and patch OWASP Top 10 vulnerabilities, specifically focusing on SQL injection, XSS, and CSRF.
+* **Skills Highlighted:** Web application security, OWASP top 10 awareness, input validation, penetration testing, ethical hacking.
+* **Outcome/Deliverable:** Demonstrated effective fixes for discovered vulnerabilities, implemented secure coding practices, and delivered a mini security audit report detailing the before-and-after state of the application.
+
+![Web App Security Audit](/assets/img/projects/webapp-audit.png){: .shadow .rounded-10 w="700" }
+_Demonstrating secure input validation and mitigation of web vulnerabilities._
