@@ -1,9 +1,11 @@
 ---
 layout: page
-title: Projects
-icon: fas fa-project-diagram
+title: About Me
+icon: fas fa-user-tie
 order: 2
 ---
+
+## Professional Statement
 
 A selection of my recent technical projects spanning IoT, secure web development, and data science.
 
