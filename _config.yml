@@ -5,7 +5,7 @@ description: >-
   Portfolio of Laurah Joy - Cybersecurity professional specializing in 
   threat detection, incident response, and security operations
 
-url: "https://yourusername.github.io"  # Your GitHub Pages URL
+url: "https://Jlaura08.github.io"  # Your GitHub Pages URL
 baseurl: ""
 
 # Theme settings
@@ -20,13 +20,13 @@ social:
   name: Laurah Joy
   email: laurah.joy@email.com  # Replace with your email
   links:
-    - https://github.com/yourusername
-    - https://linkedin.com/in/yourusername
-    - https://twitter.com/yourusername
+    - https://github.com/Jlaura08
+    - https://linkedin.com/in/Jlaura08
+    - https://twitter.com/Jlaura08
 
 # GitHub metadata
 github:
-  username: yourusername
+  username: Jlaura08
 
 # Build settings
 paginate: 5
