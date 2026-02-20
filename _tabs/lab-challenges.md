@@ -19,9 +19,6 @@ In cybersecurity, practical application is everything. Below is a selection of h
 
 **Tools Used:** Nmap, Gobuster, Netcat, LinPEAS.
 
-**Screenshots:**
-![HTB Privilege Escalation](/assets/img/labs/htb-privesc.png){: .shadow .rounded-10 w="700" }
-_Demonstrating the successful escalation to a root shell._
 
 **Key Lessons Learned:**
 * Reinforced the critical importance of the Principle of Least Privilege (PoLP).
@@ -39,9 +36,6 @@ _Demonstrating the successful escalation to a root shell._
 
 **Tools Used:** Burp Suite, SQLmap, Firefox Developer Tools.
 
-**Screenshots:**
-![THM Web Exploitation](/assets/img/labs/thm-web.png){: .shadow .rounded-10 w="700" }
-_Intercepting and modifying web requests to uncover injection flaws._
 
 **Key Lessons Learned:**
 * Experienced firsthand how input sanitization failures lead to complete application compromise.
