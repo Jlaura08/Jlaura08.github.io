@@ -4,20 +4,18 @@
 theme: jekyll-theme-chirpy
 
 # The language of the webpage > http://www.lingoes.net/en/translator/langcode.htm
-# If it has the same name as one of the files in folder `_data/locales`,
-# the layout language will also be changed, otherwise, the layout language will use the lang: en
 lang: en
 
 # Change to your timezone > https://zones.arilyn.cc
 timezone: Africa/Nairobi
 
-# jekyll-seo-tag settings > https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
+# jekyll-seo-tag settings
 # ↓ --------------------------
-title: Laurah Joy
+title: Kitine Dancan OKINYI
 tagline: "Cybersecurity Professional | Security Analyst | CTF Enthusiast"
 
 description: >-
-  Portfolio of Laurah Joy - Cybersecurity professional specializing in 
+  Portfolio of Kitine Dancan OKINYI - Cybersecurity professional specializing in 
   threat detection, incident response, and security operations. 
   Showcasing projects, lab challenges, and professional experience.
 
@@ -30,15 +28,14 @@ theme_mode: dark  # or light
 # Avatar information
 avatar: /assets/img/profile.jpg
 
-# Author information
-author: Laurah Joy
-social:
-  name: Laurah Joy
-  email: laurah.joy@email.com  # Replace with your actual email
+# Author and Contacts
+author:
+  name: Kitine Dancan OKINYI
+  email: your.email@email.com  # Replace with your actual email
   links:
     - https://github.com/Jlaura08
-    - https://linkedin.com/in/laurah-joy  # Replace with your actual LinkedIn
-    - https://twitter.com/laurahjoy  # Replace with your actual Twitter
+    - https://linkedin.com/in/your-linkedin-profile  # Update this
+    - https://twitter.com/your-twitter-handle  # Update this
 
 # GitHub metadata
 github:
@@ -46,15 +43,6 @@ github:
 
 # Build settings
 paginate: 5
-
-# Analytics settings (optional - remove if not using)
-# google_site_verification: google_meta_tag_verification
-# google_analytics:
-#   id: G-XXXXXXXXXX
-
-# Comments settings (optional - remove if not using)
-# disqus:
-#   shortname: laurah-joy  # Replace with your Disqus shortname
 
 # Pagination settings
 paginate_path: /page:num/
@@ -180,17 +168,10 @@ pwa:
       - "/login"
     strategy: network-first
 
-# SEO settings
-social:
-  type: Person
-  links:
-    - https://github.com/Jlaura08
-    - https://linkedin.com/in/laurah-joy  # Update this
-    - https://twitter.com/laurahjoy  # Update this
-
+# Webmaster verifications (Optional SEO)
 webmaster_verifications:
-  google: # Add your Google verification code if you have one
-  bing: # Add your Bing verification code if you have one
-  alexa: # Add your Alexa verification code if you have one
-  yandex: # Add your Yandex verification code if you have one
-  baidu: # Add your Baidu verification code if you have one
+  google: 
+  bing: 
+  alexa: 
+  yandex: 
+  baidu:
