@@ -6,12 +6,12 @@ order: 1
 ---
 
 ## Professional Statement
-I am a cybersecurity professional and data science enthusiast with a strong foundation in IT infrastructure and telecommunications. I specialize in identifying system vulnerabilities, building secure applications, and leveraging data to solve real-world problems. I thrive in hands-on environments and am constantly expanding my technical toolkit through practical labs and real-world development.
+I am an ICT professional and cybersecurity enthusiast passionate about identifying vulnerabilities and strengthening systems. Through hands-on labs, CTF challenges, and continuous learning, I am building secure, practical skills in vulnerability assessment and ethical hacking. I am committed to growing into a skilled security analyst who helps organizations stay secure.
 
 ---
 
 ## Academic Background
-* **Kenyatta University** * *Relevant Coursework:* Microprocessors (8085/8086), Antennas (SPH 408), Lasers and Masers.
+* **Jomo Kenyatta University of Agriculture and Technology TVET Institute** * *Relevant Coursework:* Computer Networking, Control ICT Security Threats, Develop Computer Program, Computer Maintenance and Repair.
 * **Diploma in Information and Communication Technology (ICT)**
 
 ## Training & Certifications
@@ -21,6 +21,6 @@ I am a cybersecurity professional and data science enthusiast with a strong foun
   * Continuous practical application of penetration testing, vulnerability assessment, and privilege escalation techniques.
 
 ## Technical Skills
-* **Security & Analysis:** Penetration Testing, Threat Hunting, Data Science (Telecommunications focus).
-* **Programming & Scripting:** Python, PHP, MySQL.
-* **Systems & Hardware:** Linux (Mint, Pop!_OS), IoT Development (ESP32, Raspberry Pi).
+* **Security & Analysis:** Penetration Testing, Threat Hunting.
+* **Programming & Scripting:** Python.
+* **Systems & Hardware:** Linux, Windows administration.
