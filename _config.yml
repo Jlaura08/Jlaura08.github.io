@@ -1,25 +1,17 @@
-# --------------------
-# URL & Setup
-# --------------------
-title: Laurah Joy
-tagline: Cybersecurity Professional & Enthusiast # Your professional statement
-description: Portfolio and blog of Laurah Joy, showcasing cybersecurity projects, CTF write-ups, and lab challenges.
+# The Site Configuration
+#
+# Import the theme
+theme: jekyll-theme-chirpy
 
-# --------------------
-# Author Info (Home Page Sidebar)
-# --------------------
-author:
-  name: Laurah Joy
-  avatar: /assets/img/profile.jpg # Upload your photo to the assets/img folder and link it here
-  bottom_text: "Securing systems, one challenge at a time."
+# The language of the webpage > http://www.lingoes.net/en/translator/langcode.htm
+# If it has the same name as one of the files in folder `_data/locales`,
+# the layout language will also be changed, otherwise, the layout language will use the lang: en
+lang: en
 
-# --------------------
-# Contacts / Social Links
-# --------------------
-social:
-  name: Laurah Joy
-  email: your.email@example.com
-  links:
-    - https://github.com/Jlaura08
-    - https://linkedin.com/in/your-linkedin-profile
-    # Add your telephone here if you want it public, though email/LinkedIn is usually safer for cyber portfolios!
+# Change to your timezone > https://zones.arilyn.cc
+timezone: 
+
+# jekyll-seo-tag settings > https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
+# ↓ --------------------------
+title: Chirpy
+tagline: A text-focused Jekyll theme
