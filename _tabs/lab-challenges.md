@@ -2,7 +2,7 @@
 layout: page
 title: Lab Challenges
 icon: fas fa-flag
-order: 3
+order: 4
 ---
 
 In cybersecurity, practical application is everything. Below is a selection of hands-on lab challenges and Capture The Flag (CTF) exercises I have completed to sharpen my offensive and defensive skills.
