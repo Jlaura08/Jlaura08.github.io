@@ -2,7 +2,7 @@
 layout: page
 title: Lab Challenges
 icon: fas fa-flag
-order: 3
+order: 4
 ---
 
 In cybersecurity, practical application is everything. Below is a collection of write-ups from my Cyber Shujaa training and independent Hack The Box modules.
