@@ -23,7 +23,7 @@ url: "https://Jlaura08.github.io"
 baseurl: ""
 
 # Theme settings
-theme_mode: light # or light
+theme_mode: dark # or light
 
 # Avatar information
 avatar: /assets/img/profile.jpg
