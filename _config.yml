@@ -13,13 +13,184 @@ timezone: Africa/Nairobi
 
 # jekyll-seo-tag settings > https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
-title: Kitine Dancan OKINYI
-tagline: "Cybersecurity Professional & Enthusiast"
+title: Laurah Joy
+tagline: "Cybersecurity Professional | Security Analyst | CTF Enthusiast"
+
+description: >-
+  Portfolio of Laurah Joy - Cybersecurity professional specializing in 
+  threat detection, incident response, and security operations. 
+  Showcasing projects, lab challenges, and professional experience.
 
 url: "https://Jlaura08.github.io"
 baseurl: ""
 
-# ... [other settings] ...
+# Theme settings
+theme_mode: dark  # or light
 
+# Avatar information
+avatar: /assets/img/profile.jpg
+
+# Author information
+author: Laurah Joy
+social:
+  name: Laurah Joy
+  email: laurah.joy@email.com  # Replace with your actual email
+  links:
+    - https://github.com/Jlaura08
+    - https://linkedin.com/in/laurah-joy  # Replace with your actual LinkedIn
+    - https://twitter.com/laurahjoy  # Replace with your actual Twitter
+
+# GitHub metadata
 github:
   username: Jlaura08
+
+# Build settings
+paginate: 5
+
+# Analytics settings (optional - remove if not using)
+# google_site_verification: google_meta_tag_verification
+# google_analytics:
+#   id: G-XXXXXXXXXX
+
+# Comments settings (optional - remove if not using)
+# disqus:
+#   shortname: laurah-joy  # Replace with your Disqus shortname
+
+# Pagination settings
+paginate_path: /page:num/
+
+# Collections settings
+collections:
+  tabs:
+    output: true
+    sort_by: order
+
+# Defaults settings
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      comments: true
+      toc: true
+      permalink: /posts/:title/
+  - scope:
+      path: _drafts
+    values:
+      comments: false
+  - scope:
+      path: ""
+      type: tabs
+    values:
+      layout: page
+      permalink: /:title/
+
+# Sitemap settings
+sitemap: true
+
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+# Assets settings
+assets:
+  self:
+    digest: true
+  sources:
+    - assets/css
+    - assets/js
+    - assets/img
+    - assets/data
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jekyll-archives
+  - jekyll-include-cache
+
+# Exclude from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+  - LICENSE
+  - package.json
+  - package-lock.json
+  - yarn.lock
+  - .github/
+  - .gitignore
+
+# Permalink structure
+permalink: /posts/:title/
+
+# Archives settings
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/
+
+# Category and tag display
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# Timezone formatting
+date_format: "%Y-%m-%d"
+time_format: "%H:%M"
+
+# PWA settings
+pwa:
+  enabled: true
+  cache:
+    enabled: true
+    deny_paths:
+      - "/admin"
+      - "/login"
+    strategy: network-first
+
+# SEO settings
+social:
+  type: Person
+  links:
+    - https://github.com/Jlaura08
+    - https://linkedin.com/in/laurah-joy  # Update this
+    - https://twitter.com/laurahjoy  # Update this
+
+webmaster_verifications:
+  google: # Add your Google verification code if you have one
+  bing: # Add your Bing verification code if you have one
+  alexa: # Add your Alexa verification code if you have one
+  yandex: # Add your Yandex verification code if you have one
+  baidu: # Add your Baidu verification code if you have one
